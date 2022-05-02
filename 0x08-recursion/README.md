@@ -32,4 +32,4 @@
 
 
 
-101-wildcmp.c - a function that compares two strings and returns 1 if the strings can be considered identical, otherwise return ZZ0
+101-wildcmp.c - a function that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0
