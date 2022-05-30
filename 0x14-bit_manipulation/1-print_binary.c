@@ -1,18 +1,8 @@
-/**
- * @file 1-print_binary.c
- * @author Muhabeid (muhabeid@gmail.com)
- * @brief 
- * @version 0.1
- * @date 2022-04-28
- * 
- * @copyright Copyright (c) 2022
- * 
- */
 #include "main.h"
 
 /**
- * print_binary - prints the binary equivalent of a decimal number
- * @n: number to print in binary
+ * print_binary - prints the binary representation of a number
+ * @n: parameter
  */
 void print_binary(unsigned long int n)
 {
