@@ -1,30 +1,17 @@
-/**
- * @file 2-get_bit.c
- * @author Muhabeid (muhabeid@gmail.com)
- * @brief 
- * @version 0.1
- * @date 2022-04-28
- * 
- * @copyright Copyright (c) 2022
- * 
- */
 #include "main.h"
 
 /**
- * get_bit - returns the value of a bit at an index in a decimal number
- * @n: number to search
- * @index: index of the bit
- *
- * Return: value of the bit
+ * get_bit - value of a bit at a given index
+ * @n: decimal parameter
+ * @index: index
+ * Return: val
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
-	int bit_val;
+	int bit;
 
-	if (index > 63)
-		return (-1);
-
-	bit_val = (n >> index) & 1;
-
-	return (bit_val);
+	bit = (n >> index);
+	if (index > 32)
+	return (-1);
+	return (bit & 1);
 }
